@@ -1,12 +1,12 @@
 .header1{
-    background:red;
+    background:;
     position:fixed;
     width:100%;
-
-  
+    z-index:100;
 }
 nav{
-    background:rgba(241, 196, 15 );
+    background:rgba(241, 196, 15);
+    
     
 
 }
@@ -22,4 +22,59 @@ nav{
 #header1__nav-a{
     width:90%;
     
+}
+
+
+
+/*sesion1*/
+.sesion1{
+    background:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),url(../imgs/pexels-lennart-wittstock-316794.jpg);
+   
+    background-size:cover;
+    position:relative;
+    height:653px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#content{
+    background:rgba(0,0,0,.3);
+    backdrop-filter:blur(8px);
+    border-radius:10px;
+    width:95%;
+    padding:0px 2px;
+}
+#content h1{
+    -webkit-text-fill-color:rgba(241, 196, 15);
+
+}
+
+
+/*sesion2*/
+/*articulo 1*/
+.sesion2{
+    
+}
+.sesion2__articulo1{
+  
+    padding:50px 10px;
+    background:rgba(241, 196, 15);
+}
+#articulo1-a{
+    color:#fff;
+    background:rgb(20, 50, 80);
+    padding:12px 40px;
+}
+.sesion2__articulo1-img{
+  
+    height:150px;
+    margin-top:20px;
+}
+.sesion2__articulo1-img > img{
+
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:10px;
+    filter:drop-shadow(1px 2px 3px rgba(0,0,0,.7));
 }

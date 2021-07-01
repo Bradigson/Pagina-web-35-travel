@@ -1,0 +1,25 @@
+.header1{
+    background:red;
+    position:fixed;
+    width:100%;
+
+  
+}
+nav{
+    background:rgba(241, 196, 15 );
+    
+
+}
+#boton{
+    border:none;
+    box-shadow:none;
+  
+}
+
+#menu ul li > a{
+    color:#000;
+}
+#header1__nav-a{
+    width:90%;
+    
+}

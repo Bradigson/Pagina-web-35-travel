@@ -52,9 +52,7 @@ nav{
 
 /*sesion2*/
 /*articulo 1*/
-.sesion2{
-    
-}
+
 .sesion2__articulo1{
   
     padding:50px 10px;
@@ -77,4 +75,66 @@ nav{
     object-fit:cover;
     border-radius:10px;
     filter:drop-shadow(1px 2px 3px rgba(0,0,0,.7));
+}
+
+
+
+/*articulo 2*/
+.sesion2__articulo2{
+    margin-top:50px;
+}
+.cajas{
+    margin-top:40px;
+    padding:0px 10px;
+}
+
+
+.imagenes{
+
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.img1, .img2, .img3, .img4{
+    
+    width:90%;
+    height:180px;
+    margin-top:20px;
+
+}
+.img1{
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),url(../imgs/pexels-dominika-roseclay-1094794.jpg);
+    background-size:cover;
+    background-position:center;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.img2{
+    background:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../imgs/pexels-pixabay-161251.jpg);
+    background-size:cover;
+    background-position:center;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.img3{
+    background:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../imgs/pexels-kateryna-babaieva-3721426.jpg);
+    background-size:cover;
+    background-position:center;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.img4{
+    background:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../imgs/pexels-jaime-reimer-2749500.jpg);
+    background-size:cover;
+    background-position:center;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }

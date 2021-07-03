@@ -1,5 +1,5 @@
 .header1{
-    background:;
+ 
     position:fixed;
     width:100%;
     z-index:100;
@@ -137,4 +137,182 @@ nav{
     display:flex;
     justify-content:center;
     align-items:center;
+}
+
+
+
+
+
+/*articulo 3*/
+
+.sesion2_articulo3{
+    margin-top:50px;
+    padding:0px 10px;
+    background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),url(../imgs/pexels-brandon-montrone-1179225.jpg);
+    background-position:center;
+    background-size:cover;
+    color:#fff;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.user, .data, .document{
+    background:rgba(241, 196, 15, .4);
+    width:60px;
+    height:60px;
+    border-radius:5rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+}
+#span1{
+    color:rgba(241, 196, 15);
+}
+
+
+
+
+/*aticulo4*/
+.sesion2__articulo4{
+    padding-top:50px;
+    background:#c6d2d6;
+    padding-bottom:50px;
+}
+
+
+.guide1{
+    
+    
+    width:90%;
+    height:350px;
+    margin:auto;
+
+}
+.guidername{
+    background:rgb(6, 6, 58);
+    color:#fff;
+}
+#art4img1{
+    width:100%;
+    height:83%;
+    object-fit:cover;
+
+}
+
+
+
+/*articulo5*/
+.sesion2__articulo5{
+    margin-top:70px;
+    padding-bottom:50px;
+}
+.galleries{
+    display:grid;
+    place-items:center;
+}
+.gallery{
+  
+    width:95%;
+    height:300px;
+    margin-top:40px;
+  
+}
+#articulo5img{
+    width:100%;
+    height:270px;
+    object-fit:cover;
+    
+}
+#articulo5img:hover{
+
+    filter:drop-shadow(1px 1px 4px rgba(0,0,0,.6));
+}
+.gallery{
+    background:rgba(241, 196, 15);
+}
+
+
+
+/*articulo6*/
+.sesion2__articulo6{
+    background:#f1f4f5;
+    padding-top:50px;
+    position:relative;
+    height:1250px;
+}
+.prices{
+    display:grid;
+    place-items:center;
+}
+.price{
+    
+    width:90%;
+    height:200px;
+    margin-top:50px;
+    position:relative;
+  
+   
+    
+}
+.price1{
+    background:rgba(241, 196, 15);
+    position:absolute;
+    padding:5px 20px;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    position:absolute;
+    top:5px;
+    right:5px;
+   
+
+}
+
+#art6img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+
+.price2{
+    background:rgb(13, 21, 136,.4);
+    position:absolute;
+    padding:5px 20px;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    height:0px;
+    opacity:.0;
+    transition:all 250ms;
+
+}
+.price:hover > .price2{
+    opacity:unset;
+    height:130px;
+}
+
+
+
+
+/*articulo7*/
+.sesion2__articulo7{
+
+    background:rgba(241, 196, 15);
+    padding-top:50px;
+    padding-bottom:40px;
+}
+.cartas{
+    display:grid;
+    place-items:center;
+    margin-top:30px;
+}
+#cardta1{
+    width:90%;
+    background:#050547;
+    margin-top:30px;
 }
